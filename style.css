@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500&display=swap");
+/* 
+#161A30
+#31304D
+#B6BBC4
+#F0ECE5
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f0ece5;
+}
+nav {
+  background-color: #161a30;
+}
+.nav-link {
+  color: #f0ece5;
+}
+.profileImageContainer {
+  width: 100%;
+
+  & img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+.profileContainer {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+}
+.introtext {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  & p {
+    color: #31304d;
+    text-align: center;
+    width: 60%;
+  }
+}
+.hello {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-family: "Pacifico", cursive;
+  color: #161a30;
+}
+.iam {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name {
+  color: brown !important;
+}
